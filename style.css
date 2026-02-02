@@ -1,0 +1,251 @@
+body{
+    background-color: white;
+    background-size: cover; /* Fills the entire screen */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header h2{
+    font-size: 30px;    
+}
+header{
+    background-color:#2E1F08;
+    display: flex;
+    justify-content: center;
+    color:white;
+    gap: 800px;
+
+    
+}
+
+
+header nav ul li{
+    list-style: none;
+    display: inline-block;
+
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 40px;
+    
+}
+
+.present{
+    background: #2E1F08;
+background: linear-gradient(180deg, rgba(46, 31, 8, 1) 43%, rgba(62, 47, 23, 1) 66%, rgba(87, 71, 45, 1) 77%, rgba(115, 98, 71, 1) 92%, rgba(163, 144, 114, 1) 100%);
+    width: 100%;
+    height: 1000px;
+    color: white;
+    font-size: 100px;
+}
+
+.shift{
+    margin-left: 400px;
+}
+
+.hero{
+    padding: 50px 20px 0px 20px ;
+    display: flex;
+    flex-direction: row;
+    background-color: #A39072;
+    padding-bottom: 40px;
+}
+.items {
+    height: 50%;
+    padding: 10px;
+    background-color: #694D25;
+    border-radius: 50px;
+    color: white;
+    font-size: 19px;
+    position:relative;
+    display: flex;
+    flex-direction: column;     
+    width: 40%;
+    text-align: center;
+}
+.hero img{
+    width: 50%;
+    display: flex;
+}
+
+.item3{
+   padding: 50px;
+   display: flex;
+   justify-content: center;
+   padding: 100px;
+}
+
+.item3 button {
+    padding: 5px 15px 10px 15px;
+    font-size: 28px;
+    background-color:#011829;
+    color: white;
+    border-radius: 150px;
+    border: none;
+    cursor: pointer;
+
+
+    
+}
+
+
+
+/*about*/
+
+#About{
+    
+    background-color: #A39072;
+}
+.About1{
+    display: flex;
+    
+    color: white;
+    font-size: 20px;
+    background-color:#291A04;
+    border-radius: 50px;
+    display: flex;    
+    flex-direction: row;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    
+}
+.About1 img{
+    width: 150px;
+}
+.About1 p{
+    padding: 50px;
+}
+.location{
+    display: flex;
+    justify-content: right;
+    padding: 50px;
+    background-color: #A39072;
+    
+}
+.info{
+    
+    flex-direction: column;
+    border-radius: 50px;
+    color: white;
+    width: 50%;
+    text-align: center;
+    padding-right: 30px;    
+    background-color: #694D25;
+    
+
+}
+.info h2{
+    font-size: 36px;
+}
+
+.info button{
+    padding: 5px 15px 10px 15px;
+    font-size: 28px;
+    background-color:#011829;
+    color: white;
+    border-radius: 150px;
+    border: none;
+    cursor: pointer;
+    
+
+    
+}
+
+.menu{
+    text-align: center;
+    background-color: black;
+    margin-bottom: 40px;
+    color:white;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    font-size:30px;
+}
+#menu{
+    background-color: #A39072;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: space-around ;
+    gap: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white
+
+}
+
+.list li{
+    list-style: none;
+    width: 40%;
+    text-align: center;
+    background-color: #291A04;
+    border-radius: 50px;
+}
+.list li img{
+    border-top-right-radius:45px ;
+    border-top-left-radius:45px ;
+    height: 300px;
+    width: 49%;
+}
+
+.list li  p{
+    max-width: 49%;
+    margin-left: 25.5%;
+    background-color: #694D25;
+    margin-top: -15px;
+    border-bottom-right-radius:  45px;
+    border-bottom-left-radius: 45px;
+    padding: 10px;
+}
+
+
+.item3 button:active{
+    transform: scale(0.96);
+}
+
+
+
+
+
+.items *{
+    position: relative;
+}
+
+@media (max-width: 745px) {
+    header{
+        justify-content: right;
+    }
+    header nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 0 10px;
+    
+    
+    }
+    .present{
+        font-size: 50px;
+    }
+    .shift{
+        margin-left: 300px;
+    }
+
+    .list li {
+        width: 100%;
+    }
+}
